@@ -10,6 +10,7 @@ const HabitList: React.FC = () => {
 
   const today = new Date().toISOString().split("T")[0];
 
+  
   return (
     <Box sx={{ display: "flex", flexDirection: "column", gap: 2, mt: 4 }}>
       {habits.map((habit) => {
